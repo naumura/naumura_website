@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 70px;
+    width: 120px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: chocolate;
+    color: white;
+    padding: 5px 20px;
+}
+.header-center {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.header-right ul {
+    font-size: 20px;  
+}
+.header-right li{
+    margin-left: 10px;
+}
+li {
+    list-style: none;
+}
+
+.bestplace {
+    background-image: url(../img/Yokohama_Night\ View.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.title{
+    text-align: center;
+    font-size: 60px
+}
+.guideline{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.guideline li {
+    margin-top: 10px;
+}
+
+/* .living town h2,
+.business town h2,
+.date spot h2
+ {   display: flex;
+     justify-content: center;
+     font-size: 40px;
+     text-align: center;
+     color: grey;
+     padding-top: 30px;
+ } */
+
+.living town {
+        font-size: 40px; 
+        width: 100%;
+        margin: 0 auto;
+}
+
+.business town {
+    font-size: 40px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contents {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: rgb(6, 40, 70);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+    font-size: 25px;
+}
