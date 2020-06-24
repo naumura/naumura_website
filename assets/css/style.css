@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
 .logo{
     height: 70px;
     width: 120px;
@@ -22,12 +27,15 @@ header{
     justify-content: center;
 }
 .header-right ul {
-    font-size: 20px;  
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
 }
-.header-right li{
+.header-right a {
     margin-left: 10px;
 }
-li {
+ul {
     list-style: none;
 }
 
@@ -56,6 +64,14 @@ li {
     margin-top: 10px;
 }
 
+.catchcopy {
+    font-size: 45px;
+    color: #364e96;/*文字色*/
+    margin: 10px;
+    padding: 0.1em 0;/*上下の余白*/
+    border-top: dotted 3px #364e96;/*上線*/
+    border-bottom: dotted 3px #364e96;/*下線*/
+}
 /* .living town h2,
 .business town h2,
 .date spot h2
@@ -71,6 +87,11 @@ li {
         font-size: 40px; 
         width: 100%;
         margin: 0 auto;
+        /* margin: 0 0 10px */
+}
+.description {
+    margin-bottom: 50px;
+    font-size: 25px;
 }
 
 .business town {
@@ -79,14 +100,36 @@ li {
     margin: 0 auto;
 }
 
-.contents {
+.contents img {
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
     margin: 20px auto;
+    text-align: center;
 }
+
+.contents2 img {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contents3 img {
+    font-size: 20px;
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 20px;
+    margin: 20px auto;
+    text-align: center;
+    margin-left: 50px;
+}
+
 
 footer {
     background-color: rgb(6, 40, 70);
